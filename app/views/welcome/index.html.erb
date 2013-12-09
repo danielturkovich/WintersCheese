@@ -1,4 +1,7 @@
 
+
+
+
 <head>
 
     <meta charset="utf-8">
@@ -44,6 +47,10 @@
       .marketing p + h4 {
         margin-top: 28px;
       }
+      .image-main{width:180px;padding: 20px;
+      }
+      .image-div{display:inline-block;
+      }
     </style>
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -67,7 +74,7 @@
       <div class="masthead">
         <ul id="#myTab" class="nav nav-pills pull-right">
           <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-          <li><a href="#about" data-toggle="tab">About</a></li>
+          <li id="amount"><a href="#about" data-toggle="tab">About</a></li>
           <li><a href="#skills" data-toggle="tab">Skills</a></li>
           <li><a href="#exp" data-toggle="tab">Experiences</a></li>
         </ul>
@@ -79,18 +86,38 @@
 <div id="#myTab" class="tab-content">
   <div class="tab-pane active" id="home">
       <div class="jumbotron">
-        <h1>Super awesome marketing speak!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      
+      
 
-        <img src="/assets/food.jgg">
+        
+           <div class="image-div"><img class="image-main" src="/assets/food1.jpg"></br><h3 style="margin-top:-10px;">Food</h3></div>
+         <div class="image-div"><img class="image-main" src="/assets/farm1.jpg"></br><h3 style="margin-top:-10px;">Farm</h3></div>
+       <div class="image-div"> <img class="image-main" src="/assets/tech1.jpg"></br><h3 style="margin-top:-10px;">Tech</h3></div>
+     
 
-        <a class="btn btn-large btn-success" href="#">Sign up today</a>
+  <p class="lead" style="margin-top:40px;">Food and agriculture is in my blood.  I’ve lived and breathed it for the last 27 years. I’ve have always loved technology, from playing <i>Command and Conquer</i> as a little kid to teaching myself to code and building web applications today.
+</p>
+<p class="lead">
+Our food industry must change to survive mounting global pressures. I want to see a change for the better.  I want to see everyone have the opportunity to eat local foods, harvested fresh –the way I did growing up.  I believe that Good Eggs can make that change for the better, and I want to help.
+</p>
+
+   
       </div>
   </div>
+
+
+
+
+
+
+
   <div class="tab-pane" id="about">
 
-        <h2>Why I want to work at Good Eggs</h2>
-          
+        <h2>Why Good Eggs</h2>
+        <p>I believe in Good Eggs. I realized, while starting and running my own cheese company that small producers can easily get their story and products to a small number of customers.  However, the relationship between producer and eater breaks down when trying to distribute through the traditional food system.  This idea drove me to examine our food system in detail, teach my self to code, and start a food-internet company called RecipeBox, which aimed to strengthen the connection between consumers and their food producers. </p></br>
+    <p>
+        I believe that Good Eggs has the vision and the capability to transform our food system by helping local producers preserve their story and high quality products while distributing to a wider audience.  Good Eggs is the kind of company I want to work at to apply my skills and experiences into helping achieve a shared vision. I am happy to offer to help out in any way I can.
+    </p>   
         
         
 
@@ -101,8 +128,8 @@
   <li><a href="#self-starter" data-toggle="tab">Self-Starter</a></li>
 
   <li><a href="#food-wine" data-toggle="tab">Food & Wine Background</a></li>
-    <li><a href="#6" data-toggle="tab">Entreprenerial</a></li>
-    <li><a href="#7" data-toggle="tab">Tech</a></li>
+    <li><a href="#entr" data-toggle="tab">Entreprenerial</a></li>
+    <li><a href="#tech" data-toggle="tab">Tech</a></li>
 </ul>
 
 <!-- Tab panes -->
@@ -110,7 +137,7 @@
   <div class="tab-pane active" id="self-starter">
            <div class="row-fluid marketing">
         <div class="span6">
-          <h4>Helped Start Two Local Food Brands</h4>
+          <h4>Helped Start Two Local Food Companies</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
           <h4>Launched Internet-based Food Company</h4>
@@ -123,7 +150,7 @@
           <h4>MBA Providing Solid Fundamentals</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Always Learning</h4>
+          <h4>Learner</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
           
@@ -155,23 +182,23 @@
       </div>
 </div>
 
-    <div class="tab-pane" id="6">
+    <div class="tab-pane" id="entr">
         <div class="row-fluid marketing">
        <div class="span6">
-          <h4>Founded Winters Cheese Co</h4>
+          <h4>Winters CC</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Grew up on Farm</h4>
+          <h4>TFW helping in startup</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
         
         </div>
 
         <div class="span6">
-          <h4>Turkovich Family Wines Launch</h4>
+          <h4>RecipeBox</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Wine Business Undergrad</h4>
+          <h4>Interested</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
           
@@ -179,25 +206,21 @@
       </div>
       </div>
 
-     <div class="tab-pane" id="7">
+     <div class="tab-pane" id="tech">
         <div class="row-fluid marketing">
        <div class="span6">
-          <h4>Founded Winters Cheese Co</h4>
+          <h4>Learned ROR and built RB</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Grew up on Farm</h4>
+          <h4>Algorithm</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
         
         </div>
 
         <div class="span6">
-          <h4>Turkovich Family Wines Launch</h4>
+          <h4>This website</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Wine Business Undergrad</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
           
         </div>
        </div>
@@ -322,6 +345,7 @@
   e.preventDefault()
   $(this).tab('show')
 })</script>
+
 
   </body>
 
